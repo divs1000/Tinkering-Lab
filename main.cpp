@@ -6,12 +6,12 @@
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
 #include <ArduinoJson.h>
-#define BOTtoken "7158355672:AAGgABUZZU4Qlk4MIgd8gHbO27li2hvo1Ng"
-#define CHAT_ID "7011182118"
+#define BOTtoken ""
+#define CHAT_ID ""
 char buffer[100];
 float thershold=10;
-const char* ssid = "oneplus";
-const char* password = "987654321";
+const char* ssid = "";
+const char* password = "";
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 #define PIN_MQ135 34
